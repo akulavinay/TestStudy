@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="TestProject">
+   
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+   
+   <test name="FirstTest">
+  	<packages> 
+      <package name="study.test" />    
+   </packages>
+   </test>
+
+</suite>
+ 
+ 
+ 
